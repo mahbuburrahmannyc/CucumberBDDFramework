@@ -1,0 +1,248 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4722820700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "User Able to Search in Google Positive",
+        "description": "",
+        "id": "user-able-to-search-in-google;user-able-to-search-in-google-positive;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 832469300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3553458200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User in Google Home Page",
+            "match": {
+              "location": "GoogleSteps.user_in_Google_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8003139700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Search by key Word \"Car\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Car",
+                  "offset": 20
+                }
+              ],
+              "location": "GoogleSteps.search_by_key_Word(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Search result Appear",
+            "match": {
+              "location": "GoogleSteps.verify_Search_result_Appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 1,
+            "name": "@Regression"
+          },
+          {
+            "line": 1,
+            "name": "@google"
+          }
+        ]
+      }
+    ],
+    "name": "User able to search in Google",
+    "description": "",
+    "id": "user-able-to-search-in-google",
+    "keyword": "Feature",
+    "uri": "Google.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@google"
+      },
+      {
+        "line": 1,
+        "name": "@Regression"
+      },
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3397905800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeAction(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Positive user Should able to create account using Register",
+        "description": "",
+        "id": "users-ability-to-create-account;positive-user-should-able-to-create-account-using-register;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 778267200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4073248600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Browse to Newtours homepage",
+            "match": {
+              "location": "MyNewToursRegisterSteps.browse_to_Newtours_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 626184400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Navigate to register page",
+            "match": {
+              "location": "MyNewToursRegisterSteps.navigate_to_register_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1500614200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Fill form with some basic information",
+            "match": {
+              "location": "MyNewToursRegisterSteps.fill_form_with_some_basic_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1338653700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Complete creating account with \"Rahman\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rahman",
+                  "offset": 32
+                }
+              ],
+              "location": "MyNewToursRegisterSteps.complete_creating_account_with(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 45599900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify account created successfully",
+            "match": {
+              "location": "MyNewToursRegisterSteps.verify_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          },
+          {
+            "line": 1,
+            "name": "@newtour"
+          }
+        ]
+      }
+    ],
+    "name": "Users ability to create account",
+    "description": "",
+    "id": "users-ability-to-create-account",
+    "keyword": "Feature",
+    "uri": "MyNewtoursRegister.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@newtour"
+      },
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]
