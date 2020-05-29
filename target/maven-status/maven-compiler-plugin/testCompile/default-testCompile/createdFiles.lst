@@ -8,9 +8,9 @@ bdd\runners\RunnerClass.class
 bdd\stepDef\MyNewToursRegisterSteps.class
 bdd\newtours\PageActions\RegisterPageAction.class
 bdd\com\utilities\AfterActions.class
+bdd\com\utilities\ScreenShot.class
 bdd\com\utilities\SetupDrivers.class
 bdd\newtours\PageElements\RegisterConfrPageLocators.class
-bdd\com\utilities\PageScreenShoot.class
 bdd\newtours\PageActions\NewToursHomePageAction.class
 bdd\stepDef\GoogleSteps.class
 bdd\newtours\PageActions\RegisterConfrPageAction.class

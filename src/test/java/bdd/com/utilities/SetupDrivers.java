@@ -22,13 +22,11 @@ public class SetupDrivers {
 		
 	}
 	
-	
 	public static WebDriver getDriver() {
 		return driver;
 	}
 	
-	
-	  public static void tearDownDriver() { 
+	public static void tearDownDriver() { 
 		  driver.quit();
 	  
 	  }

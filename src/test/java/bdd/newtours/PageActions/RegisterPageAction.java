@@ -51,9 +51,7 @@ public class RegisterPageAction {
 	
 	public void submitForm() {
 		newToursRegisterPageLocators.submitButton.click();
-		System.out.println("Successfully click SubmitButton");
-
-		
+		System.out.println("Successfully click SubmitButton");	
 		
 	}
 

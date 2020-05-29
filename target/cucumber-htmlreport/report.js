@@ -67,7 +67,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 4722820700,
+  "duration": 6171745100,
   "status": "passed"
 });
 formatter.scenario({
@@ -114,7 +114,7 @@ formatter.match({
   "location": "GoogleSteps.user_in_Google_Home_Page()"
 });
 formatter.result({
-  "duration": 3553458200,
+  "duration": 3593809699,
   "status": "passed"
 });
 formatter.match({
@@ -127,18 +127,18 @@ formatter.match({
   "location": "GoogleSteps.search_by_key_Word(String)"
 });
 formatter.result({
-  "duration": 8003139700,
+  "duration": 7177231699,
   "status": "passed"
 });
 formatter.match({
   "location": "GoogleSteps.verify_Search_result_Appear()"
 });
 formatter.result({
-  "duration": 234300,
+  "duration": 62699,
   "status": "passed"
 });
 formatter.after({
-  "duration": 832469300,
+  "duration": 720208800,
   "status": "passed"
 });
 formatter.uri("MyNewtoursRegister.feature");
@@ -216,7 +216,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3397905800,
+  "duration": 3367723900,
   "status": "passed"
 });
 formatter.scenario({
@@ -269,21 +269,21 @@ formatter.match({
   "location": "MyNewToursRegisterSteps.browse_to_Newtours_homepage()"
 });
 formatter.result({
-  "duration": 4073248600,
+  "duration": 36888450700,
   "status": "passed"
 });
 formatter.match({
   "location": "MyNewToursRegisterSteps.navigate_to_register_page()"
 });
 formatter.result({
-  "duration": 626184400,
+  "duration": 25818906400,
   "status": "passed"
 });
 formatter.match({
   "location": "MyNewToursRegisterSteps.fill_form_with_some_basic_information()"
 });
 formatter.result({
-  "duration": 1500614200,
+  "duration": 1224630601,
   "status": "passed"
 });
 formatter.match({
@@ -296,18 +296,18 @@ formatter.match({
   "location": "MyNewToursRegisterSteps.complete_creating_account_with(String)"
 });
 formatter.result({
-  "duration": 1338653700,
+  "duration": 34993112500,
   "status": "passed"
 });
 formatter.match({
   "location": "MyNewToursRegisterSteps.verify_account_created_successfully()"
 });
 formatter.result({
-  "duration": 45599900,
+  "duration": 43942700,
   "status": "passed"
 });
 formatter.after({
-  "duration": 778267200,
+  "duration": 666880899,
   "status": "passed"
 });
 });

@@ -31,6 +31,7 @@ public class GoogleHomePageAction {
 	}
 		
 	public void signIn() {
+		
 		googleSearchPageLocators.btnSignIn.click();
 	}
 	

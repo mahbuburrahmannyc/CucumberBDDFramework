@@ -8,9 +8,9 @@ C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\newtours
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\stepDef\MyNewToursRegisterSteps.java
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\com\utilities\AfterActions.java
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\com\utilities\NewTourExcelSheetData.java
-C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\com\utilities\PageScreenShoot.java
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\newtours\PageElements\HomePageLocators.java
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\com\utilities\SetupDrivers.java
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\newtours\PageElements\RegisterConfrPageLocators.java
+C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\com\utilities\ScreenShot.java
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\newtours\PageActions\RegisterPageAction.java
 C:\Users\naher\eclipse-workspace\CucumberBddFramework\src\test\java\bdd\newtours\PageElements\RegisterPageLocators.java

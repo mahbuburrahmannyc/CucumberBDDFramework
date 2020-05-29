@@ -11,6 +11,7 @@ public class BeforeActions {
 	public void beforeAction(Scenario scen) {// Import Cucumber Scenario api
 		System.out.println(">> Initializing chrome driver");
 		SetupDrivers.setupDriver();
+		System.out.println(">> Initialized chrome driver Successfully");
 		System.out.println(scen.getName());// Print Scenario
 		
 		

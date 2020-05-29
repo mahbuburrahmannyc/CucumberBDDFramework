@@ -59,9 +59,10 @@ public class RegisterPageLocators {
 	public WebElement confirmPassword;
 	
 	// WebElement Submit Button
-	@FindBy(xpath="//input[@src='/images/forms/submit.gif']")
+	@FindBy(xpath="//*[@name='register']")
 	public WebElement submitButton;
-	
+	//
+	//input[@src='/images/forms/submit.gif']
 	
 
 }
